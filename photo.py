@@ -16,14 +16,12 @@ def back():
     global img_id
     global img_list
     global img
-    print(img_id)
     img_id-=1
     if img_id < 0:
         img_id=len(img_list)-1
         
     img = resize_img(img_list[img_id])
     display()
-    print(img_id)
 
 def resize_img(img_name):
     #Resizing image
