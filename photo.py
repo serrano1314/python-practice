@@ -39,9 +39,9 @@ def display():
     label.grid(row=0,column=0,columnspan=2)
 
 root = Tk()
-root.iconbitmap('ico/adobe-xd.ico')
+root.title('Photo Viewer')
+#root.iconbitmap('ico/adobe-xd.ico')
 img_list = ('img/iu.jpg','img/iu2.jpg','img/iu3.jpg','img/iu4.jpg','img/iu5.jpg')
-print(len(img_list))
 img_id = 0
 
 
